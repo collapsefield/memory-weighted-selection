@@ -103,7 +103,7 @@ identifier becomes available.
 
 ## Licence and authorship
 
-Copyright © 2026 Marcos Verrell / Inappropriate Media Limited.
+Copyright © 2026 Inappropriate Media Limited.
 Licensed under CC BY-NC-ND 4.0 — see [LICENSE.md](LICENSE.md).
 
 You may share this work with attribution. You may not use it commercially or
