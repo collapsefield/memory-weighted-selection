@@ -1,0 +1,238 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson(1996)]{anderson1996act}
+John~R. Anderson.
+\newblock Act: A simple theory of complex cognition.
+\newblock \emph{American Psychologist}, 51\penalty0 (4):\penalty0 355--365,
+  1996.
+
+\bibitem[Anderson and Schooler(1991)]{anderson1991reflections}
+John~R. Anderson and Lael~J. Schooler.
+\newblock Reflections of the environment in memory.
+\newblock \emph{Psychological Science}, 2\penalty0 (6):\penalty0 396--408,
+  1991.
+
+\bibitem[Anderson et~al.(2004)Anderson, Bothell, Byrne, Douglass, Lebiere, and
+  Qin]{anderson2004integrated}
+John~R. Anderson, Daniel Bothell, Michael~D. Byrne, Scott Douglass, Christian
+  Lebiere, and Yulin Qin.
+\newblock An integrated theory of the mind.
+\newblock \emph{Psychological Review}, 111\penalty0 (4):\penalty0 1036--1060,
+  2004.
+
+\bibitem[Bai et~al.(2022{\natexlab{a}})Bai, Jones, Ndousse, Askell, Chen,
+  DasSarma, Drain, Fort, Ganguli, Henighan, et~al.]{bai2022helpful}
+Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma,
+  Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et~al.
+\newblock Training a helpful and harmless assistant with reinforcement learning
+  from human feedback.
+\newblock \emph{arXiv preprint arXiv:2204.05862}, 2022{\natexlab{a}}.
+
+\bibitem[Bai et~al.(2022{\natexlab{b}})Bai, Kadavath, Kundu, Askell, Kernion,
+  Jones, Chen, Goldie, Mirhoseini, McKinnon, et~al.]{bai2022constitutional}
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion,
+  Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,
+  et~al.
+\newblock Constitutional ai: Harmlessness from ai feedback.
+\newblock \emph{arXiv preprint arXiv:2212.08073}, 2022{\natexlab{b}}.
+
+\bibitem[Beurer-Kellner et~al.(2023)Beurer-Kellner, Fischer, and
+  Vechev]{beurer2023prompting}
+Luca Beurer-Kellner, Marc Fischer, and Martin Vechev.
+\newblock Prompting is programming: A query language for large language models.
+\newblock In \emph{Proceedings of the ACM SIGPLAN Conference on Programming
+  Language Design and Implementation}, 2023.
+\newblock arXiv:2212.06094.
+
+\bibitem[Borgeaud et~al.(2022)Borgeaud, Mensch, Hoffmann, Cai, Rutherford,
+  Millican, van~den Driessche, Lespiau, Damoc, Clark,
+  et~al.]{borgeaud2022retro}
+Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann, Trevor Cai, Eliza
+  Rutherford, Katie Millican, George~Bm van~den Driessche, Jean-Baptiste
+  Lespiau, Bogdan Damoc, Aidan Clark, et~al.
+\newblock Improving language models by retrieving from trillions of tokens.
+\newblock In \emph{Proceedings of the 39th International Conference on Machine
+  Learning}, pages 2206--2240, 2022.
+
+\bibitem[Bubeck and Cesa-Bianchi(2012)]{bubeck2012regret}
+S{\'e}bastien Bubeck and Nicolo Cesa-Bianchi.
+\newblock \emph{Regret Analysis of Stochastic and Nonstochastic Multi-armed
+  Bandit Problems}.
+\newblock Now Publishers, 2012.
+
+\bibitem[Burges(2010)]{burges2010ranknet}
+Christopher J.~C. Burges.
+\newblock From ranknet to lambdarank to lambdamart: An overview.
+\newblock \emph{Microsoft Research Technical Report MSR-TR-2010-82}, 2010.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, et~al.]{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  et~al.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem[Dathathri et~al.(2019)Dathathri, Madotto, Lan, Hung, Frank, Molino,
+  Yosinski, and Liu]{dathathri2019pplm}
+Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane Hung, Eric Frank, Piero
+  Molino, Jason Yosinski, and Rosanne Liu.
+\newblock Plug and play language models: A simple approach to controlled text
+  generation.
+\newblock \emph{arXiv preprint arXiv:1912.02164}, 2019.
+
+\bibitem[Graves et~al.(2014)Graves, Wayne, and Danihelka]{graves2014ntm}
+Alex Graves, Greg Wayne, and Ivo Danihelka.
+\newblock Neural turing machines.
+\newblock \emph{arXiv preprint arXiv:1410.5401}, 2014.
+
+\bibitem[Graves et~al.(2016)Graves, Wayne, Reynolds, Harley, Danihelka,
+  Grabska-Barwinska, Colmenarejo, Grefenstette, Ramalho, Agapiou,
+  et~al.]{graves2016dnc}
+Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka
+  Grabska-Barwinska, Sergio~G{\'o}mez Colmenarejo, Edward Grefenstette, Tiago
+  Ramalho, John Agapiou, et~al.
+\newblock Hybrid computing using a neural network with dynamic external memory.
+\newblock \emph{Nature}, 538\penalty0 (7626):\penalty0 471--476, 2016.
+
+\bibitem[Guu et~al.(2020)Guu, Lee, Tung, Pasupat, and Chang]{guu2020realm}
+Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang.
+\newblock Realm: Retrieval-augmented language model pre-training.
+\newblock In \emph{Proceedings of the 37th International Conference on Machine
+  Learning}, pages 3929--3938, 2020.
+
+\bibitem[Izacard and Grave(2021)]{izacard2021fid}
+Gautier Izacard and Edouard Grave.
+\newblock Leveraging passage retrieval with generative models for open domain
+  question answering.
+\newblock In \emph{Proceedings of the 16th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 874--880, 2021.
+
+\bibitem[Kaelbling et~al.(1998)Kaelbling, Littman, and
+  Cassandra]{kaelbling1998planning}
+Leslie~Pack Kaelbling, Michael~L. Littman, and Anthony~R. Cassandra.
+\newblock Planning and acting in partially observable stochastic domains.
+\newblock \emph{Artificial Intelligence}, 101\penalty0 (1-2):\penalty0 99--134,
+  1998.
+
+\bibitem[Krause et~al.(2021)Krause, Gotmare, McCann, Keskar, Joty, Socher, and
+  Rajani]{krause2021gedi}
+Ben Krause, Akhilesh~Deepak Gotmare, Bryan McCann, Nitish~Shirish Keskar,
+  Shafiq Joty, Richard Socher, and Nazneen~Fatema Rajani.
+\newblock Gedi: Generative discriminator guided sequence generation.
+\newblock \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2021}, pages 4929--4952, 2021.
+
+\bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
+  Kuttler, Lewis, Yih, Rocktaschel, Riedel, and Kiela]{lewis2020rag}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich Kuttler, Mike Lewis, Wen-tau Yih, Tim
+  Rocktaschel, Sebastian Riedel, and Douwe Kiela.
+\newblock Retrieval-augmented generation for knowledge-intensive nlp tasks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pages 9459--9474, 2020.
+
+\bibitem[Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee,
+  Leike, Schulman, Sutskever, and Cobbe]{lightman2023verify}
+Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy
+  Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe.
+\newblock Let's verify step by step.
+\newblock \emph{arXiv preprint arXiv:2305.20050}, 2023.
+
+\bibitem[Liu(2009)]{liu2009learning}
+Tie-Yan Liu.
+\newblock \emph{Learning to Rank for Information Retrieval}.
+\newblock Springer, 2009.
+
+\bibitem[Nakano et~al.(2021)Nakano, Hilton, Balaji, Wu, Ouyang, Kim, Hesse,
+  Jain, Kosaraju, Saunders, et~al.]{nakano2021webgpt}
+Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina
+  Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders,
+  et~al.
+\newblock Webgpt: Browser-assisted question-answering with human feedback.
+\newblock \emph{arXiv preprint arXiv:2112.09332}, 2021.
+
+\bibitem[Nogueira and Cho(2019)]{nogueira2019passage}
+Rodrigo Nogueira and Kyunghyun Cho.
+\newblock Passage re-ranking with bert.
+\newblock \emph{arXiv preprint arXiv:1901.04085}, 2019.
+
+\bibitem[Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin,
+  Zhang, Agarwal, Slama, Ray, et~al.]{ouyang2022training}
+Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+  Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al.
+\newblock Training language models to follow instructions with human feedback.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, pages 27730--27744, 2022.
+
+\bibitem[Packer et~al.(2023)Packer, Fang, Patil, Lin, Wooders, and
+  Gonzalez]{packer2023memgpt}
+Charles Packer, Vivian Fang, Shishir~G. Patil, Kevin Lin, Sarah Wooders, and
+  Joseph~E. Gonzalez.
+\newblock Memgpt: Towards llms as operating systems.
+\newblock \emph{arXiv preprint arXiv:2310.08560}, 2023.
+
+\bibitem[Park et~al.(2023)Park, O'Brien, Cai, Morris, Liang, and
+  Bernstein]{park2023generative}
+Joon~Sung Park, Joseph~C. O'Brien, Carrie~J. Cai, Meredith~Ringel Morris, Percy
+  Liang, and Michael~S. Bernstein.
+\newblock Generative agents: Interactive simulacra of human behavior.
+\newblock \emph{Proceedings of the 36th Annual ACM Symposium on User Interface
+  Software and Technology}, 2023.
+
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Gopinath, Narasimhan, and
+  Yao]{shinn2023reflexion}
+Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu
+  Yao.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2023.
+
+\bibitem[Stiennon et~al.(2020)Stiennon, Ouyang, Wu, Ziegler, Lowe, Voss,
+  Radford, Amodei, and Christiano]{stiennon2020learning}
+Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea
+  Voss, Alec Radford, Dario Amodei, and Paul~F. Christiano.
+\newblock Learning to summarize from human feedback.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pages 3008--3021, 2020.
+
+\bibitem[Sukhbaatar et~al.(2015)Sukhbaatar, Weston, Fergus,
+  et~al.]{sukhbaatar2015end}
+Sainbayar Sukhbaatar, Jason Weston, Rob Fergus, et~al.
+\newblock End-to-end memory networks.
+\newblock \emph{Advances in Neural Information Processing Systems}, 28, 2015.
+
+\bibitem[Sutton and Barto(2018)]{sutton2018reinforcement}
+Richard~S. Sutton and Andrew~G. Barto.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock MIT Press, 2 edition, 2018.
+
+\bibitem[Wang et~al.(2023)Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, and
+  Anandkumar]{wang2023voyager}
+Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu,
+  Linxi Fan, and Anima Anandkumar.
+\newblock Voyager: An open-ended embodied agent with large language models.
+\newblock \emph{arXiv preprint arXiv:2305.16291}, 2023.
+
+\bibitem[Weston et~al.(2015)Weston, Chopra, and Bordes]{weston2015memory}
+Jason Weston, Sumit Chopra, and Antoine Bordes.
+\newblock Memory networks.
+\newblock \emph{International Conference on Learning Representations}, 2015.
+
+\bibitem[Willard and Louf(2023)]{willard2023efficient}
+Brandon~T. Willard and R{\'e}mi Louf.
+\newblock Efficient guided generation for large language models.
+\newblock \emph{arXiv preprint arXiv:2307.09702}, 2023.
+
+\bibitem[Yang and Klein(2021)]{yang2021fudge}
+Kevin Yang and Dan Klein.
+\newblock Fudge: Controlled text generation with future discriminators.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics}, pages 3511--3535,
+  2021.
+
+\end{thebibliography}
