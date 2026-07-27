@@ -79,10 +79,48 @@ selection. It does not claim consciousness, sentience, agency, quantum
 mechanisms, or physical-theoretic validation, and the adjacent-evidence note
 in `research_notes/` states its own claim boundaries explicitly.
 
+## Evidence and validation boundary
+
+Collapse Aware AI now has a demonstrated Phase-1 engineering foundation for governed retained-state selection. That implementation evidence is relevant to whether the middleware architecture can be built, inspected, replayed and evaluated.
+
+It is **not automatically independent empirical confirmation of Verrell's Law** merely because the software was deliberately built to apply retained-state weighting.
+
+The canonical Verrell's Law archive now distinguishes three evidence classes:
+
+```text
+Independent empirical test
+Engineering conformance test
+Proxy-based empirical test
+```
+
+A runtime test that reuses the selector's own internal retained-state score is an engineering conformance / implementation validation unless the analysis uses an independently frozen score or another non-circular empirical route.
+
+See:
+
+- [Verrell's Law — Empirical Identification Clarification v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_EMPIRICAL_IDENTIFICATION_CLARIFICATION_v1.0.md)
+- [Verrell's Law — Mathematical Foundations and Falsification Protocol v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_MATHEMATICAL_FOUNDATIONS_AND_FALSIFICATION_PROTOCOL_v1.0.md)
+
+## Relationship to the exploratory software-frequency programme
+
+The separate Verrell's Law archive also contains an exploratory programme asking whether controlled software timing / drive-rate conditions add reproducible information about retained-state coupling or persistence.
+
+That work is:
+
+- non-canonical;
+- unvalidated;
+- not required for this paper or for CAAI's engineering value;
+- not evidence for electromagnetic or physical resonance;
+- currently at the runtime-characterization / preregistration stage rather than the evidence stage.
+
+The experimental-control methods developed there — frozen-state comparisons, per-trial restore, read-only or fixed probes, aliasing/phase controls, nested held-out validation, power analysis and preregistered stopping rules — are nevertheless useful for strengthening future CAAI validation.
+
+Current exploratory control note:
+
+- [Frequency-Coupled Retained-State Extension v0.5](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/research_notes/FREQUENCY_COUPLED_RETAINED_STATE_EXPLORATORY_MATHEMATICS_v0.5_PREREGISTRATION_AND_MECHANISM_BOUNDARY.md)
+
 ## Status
 
-Working research paper. Empirical benchmark evaluation is identified as future
-work. A version of this paper is being prepared for preprint submission.
+Working research paper. Empirical benchmark evaluation and stronger independent validation remain future work. The engineering implementation track and the broader Verrell's Law empirical programme should be evaluated under their separate evidence labels rather than collapsed into one claim.
 
 ## Citation
 
