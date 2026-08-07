@@ -1,9 +1,9 @@
 # Memory-Weighted Selection
 
-**Middleware for Continuity and Governed Behaviour in LLM Systems**
+**Middleware for continuity and retained-state behavioural selection**
 
-Author: Marcos Verrell (Independent Researcher)
-Part of the Collapse Aware AI (CAAI) research programme — Verrell's Law framework.
+Author: Marcos Ross  
+Part of the Collapse Aware AI (CAAI) engineering / research programme.
 
 **Read the paper:** [Memory-Weighted Selection (PDF)](Memory-Weighted-Selection.pdf)
 
@@ -11,139 +11,164 @@ Part of the Collapse Aware AI (CAAI) research programme — Verrell's Law framew
 
 ## What this is
 
-This repository contains the working paper source for *Memory-Weighted
-Selection*, a formal reference model for how persistent memory state can bias
-candidate selection in LLM-based systems.
+This repository contains the working-paper source for *Memory-Weighted Selection*, a formal reference model for how persistent retained state can influence candidate selection in model-agnostic middleware.
 
-The core idea: instead of relying only on direct base-model emission,
-retrieval-conditioned generation, or post-hoc moderation, a middleware layer
-scores fully formed candidate outputs against a structured persistent memory
-state and explicit governor constraints, and selects among them. Selection
-itself becomes the primary site of continuity and governance enforcement — no
-modification of the base model required.
+The core idea is that a host or generator supplies a set of permitted candidate outputs/actions, while a separate middleware layer evaluates those candidates against structured retained state and declared constraints before final selection.
 
-The reference formulation decomposes persistent memory into three components:
+Selection itself becomes the place where behavioural continuity is made operational — without requiring retraining of the underlying model.
 
-- **Recency** — alignment with recent selections
-- **Salience** — alignment with high-importance memory items
-- **Anchor** — compatibility with persistent commitments and stability constraints
+The paper is a public formalisation. Production CAAI kernel logic, scoring functions, thresholds and runtime implementation remain proprietary.
 
-In the wider CAAI architecture, this layered memory-influence structure is
-described as **Weighted Emergence Layering (WEL)**, and the influence of
-retained prior information on future selection probability as **Active
-Information Weight (AIW)**. The paper presents the general, model-agnostic
-reference mechanism; production kernel logic, scoring functions, thresholds,
-and implementation details are deliberately out of scope and remain
-proprietary.
+---
+
+## Applied engineering status — August 2026
+
+The CAAI engineering programme has now progressed beyond the original Phase-1 foundation used when this paper was first published.
+
+The current private engineering line includes a live-integrated retained-state selection path and a bounded **local managed-evaluation package**.
+
+Public-safe demonstrated engineering now includes:
+
+- retained-state selection among permitted candidates;
+- persistence and deterministic replay;
+- explicit retained-state revision / revocation;
+- continuity memory and session boot;
+- recall routing / correction / revoked-context protection;
+- bounded ambiguity handling;
+- agency-impact routing;
+- durable private Decision Records;
+- customer-safe Decision Record projection;
+- live Phase-2 → Core selector integration;
+- failure/replay/restart and duplicate-protection hardening;
+- managed evaluation with customer-safe JSON / HTML / PDF evidence.
+
+A controlled synthetic live comparison held the prompt, candidate set, candidate order, mapped thread and deterministic seed constant while comparing declared reference and governed retained-state conditions. The real selector chose different permitted candidates across the two conditions.
+
+That is an **engineering implementation result**, not independent empirical proof of Verrell’s Law and not isolated causal proof of one configuration variable.
+
+Current public-safe CAAI engineering status:
+
+- [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
+- [Current Engineering State — 7 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CURRENT_ENGINEERING_STATE_2026-08-07.md)
+- [Managed Evaluation Evidence — 7 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
+
+---
+
+## Reference memory decomposition
+
+The public paper uses a deliberately simplified reference decomposition:
+
+- **Recency** — alignment with recent retained state;
+- **Salience** — alignment with higher-importance retained items;
+- **Anchor** — compatibility with persistent commitments / stability references.
+
+The wider private CAAI architecture now contains richer retained-state lifecycle, recall-quality and evidence machinery than this paper’s minimal reference model.
+
+The paper should therefore be read as a **formal public abstraction**, not as a complete specification of the current production/private runtime.
+
+---
 
 ## Repository contents
 
-```
+```text
 Memory-Weighted-Selection.pdf
                         — compiled paper for convenient reading
 
 paper_source/
   paper.tex             — full LaTeX source of the working paper
   references.bib        — bibliography
-  paper.bbl             — compiled bibliography (for reproducible builds)
+  paper.bbl             — compiled bibliography
   fig_architecture.pdf  — reference architecture figure
   fig_scenario.pdf      — worked scenario figure
 
 research_notes/
   QUANTUM_MEMORY_AND_CARBON_ADJACENT_EVIDENCE.md
-                        — bounded adjacent-evidence note on the 2026
-                          bilayer-graphene non-Abelian anyon result and its
-                          relevance to history-dependent, distributed
-                          information. Kept deliberately separate from the
-                          paper; see the note's claim-boundary section.
+                        — bounded adjacent-evidence research note,
+                          deliberately separate from the engineering paper
 ```
+
+---
 
 ## Building the paper
 
 From the repository root:
 
-```
+```text
 cd paper_source
 pdflatex paper.tex
 pdflatex paper.tex
 pdflatex paper.tex
 ```
 
-The included `paper.bbl` means no separate BibTeX run is required. Three runs
-ensure that citations, references, and PDF bookmarks are fully resolved.
+The included `paper.bbl` means no separate BibTeX run is required.
+
+---
 
 ## Scope and claims
 
-The paper makes a narrow, engineering-level claim about middleware candidate
-selection. It does not claim consciousness, sentience, agency, quantum
-mechanisms, or physical-theoretic validation, and the adjacent-evidence note
-in `research_notes/` states its own claim boundaries explicitly.
+The paper makes a narrow engineering-level claim about middleware candidate selection.
+
+It does **not** claim:
+
+- consciousness or sentience;
+- AGI;
+- quantum implementation;
+- electromagnetic memory as an established CAAI mechanism;
+- new established physics;
+- universal emotional / psychological inference;
+- disclosure of proprietary Crown internals.
+
+---
 
 ## Evidence and validation boundary
 
-Collapse Aware AI now has a demonstrated Phase-1 engineering foundation for governed retained-state selection. That implementation evidence is relevant to whether the middleware architecture can be built, inspected, replayed and evaluated.
+CAAI engineering tests establish that the middleware architecture can be built, executed, inspected, replayed and evaluated.
 
-It is **not automatically independent empirical confirmation of Verrell's Law** merely because the software was deliberately built to apply retained-state weighting.
+That is not automatically independent empirical confirmation of Verrell’s Law merely because CAAI was deliberately built around retained-state weighting.
 
-The canonical Verrell's Law archive now distinguishes three evidence classes:
+A runtime test that reuses the selector’s own internal retained-state score is an **engineering conformance / implementation validation** unless the analysis uses an independently frozen score or another non-circular empirical route.
 
-```text
-Independent empirical test
-Engineering conformance test
-Proxy-based empirical test
-```
+The research and engineering evidence labels must remain separate.
 
-A runtime test that reuses the selector's own internal retained-state score is an engineering conformance / implementation validation unless the analysis uses an independently frozen score or another non-circular empirical route.
+---
 
-See:
+## Relationship to Verrell’s Law
 
-- [Verrell's Law — Empirical Identification Clarification v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_EMPIRICAL_IDENTIFICATION_CLARIFICATION_v1.0.md)
-- [Verrell's Law — Mathematical Foundations and Falsification Protocol v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_MATHEMATICAL_FOUNDATIONS_AND_FALSIFICATION_PROTOCOL_v1.0.md)
+Verrell’s Law is a separate proposed falsifiable retained-state selection framework.
 
-## Relationship to the exploratory software-frequency programme
+CAAI can be assessed entirely as software without accepting speculative physical interpretation.
 
-The separate Verrell's Law archive also contains an exploratory programme asking whether controlled software timing / drive-rate conditions add reproducible information about retained-state coupling or persistence.
+The canonical research archive is:
 
-That work is:
+- [collapsefield-verrells-law](https://github.com/collapsefield/collapsefield-verrells-law)
 
-- non-canonical;
-- unvalidated;
-- not required for this paper or for CAAI's engineering value;
-- not evidence for electromagnetic or physical resonance;
-- currently at the runtime-characterization / preregistration stage rather than the evidence stage.
-
-The experimental-control methods developed there — frozen-state comparisons, per-trial restore, read-only or fixed probes, aliasing/phase controls, nested held-out validation, power analysis and preregistered stopping rules — are nevertheless useful for strengthening future CAAI validation.
-
-Current exploratory control note:
-
-- [Frequency-Coupled Retained-State Extension v0.5](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/research_notes/FREQUENCY_COUPLED_RETAINED_STATE_EXPLORATORY_MATHEMATICS_v0.5_PREREGISTRATION_AND_MECHANISM_BOUNDARY.md)
+---
 
 ## Status
 
-Working research paper. Empirical benchmark evaluation and stronger independent validation remain future work. The engineering implementation track and the broader Verrell's Law empirical programme should be evaluated under their separate evidence labels rather than collapsed into one claim.
+**Paper status:** working public engineering paper.  
+**CAAI implementation status:** live-integrated retained-state selection and local managed-evaluation packaging now exist in the private engineering line.  
+**Independent empirical validation:** remains separate future research work.
+
+The paper, CAAI engineering implementation and Verrell’s Law empirical programme should be evaluated under their separate evidence labels rather than collapsed into one claim.
+
+---
 
 ## Citation
 
 Until a preprint identifier is assigned, cite the working paper as:
 
-> Verrell, Marcos. “Memory-Weighted Selection: Middleware for Continuity and
-> Governed Behaviour in LLM Systems.” Working paper, 2026.
+> Ross, Marcos. “Memory-Weighted Selection: Middleware for Continuity and Governed Behaviour in LLM Systems.” Working paper, 2026.
 
-Machine-readable citation metadata is provided in
-[`CITATION.cff`](CITATION.cff). The record will be updated when an arXiv or DOI
-identifier becomes available.
+Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
-## Related
-
-- Verrell's Law — theoretical framework: https://www.verrellslaw.org
-- Collapse Aware AI (CAAI) — the applied middleware programme built on this
-  mechanism.
+---
 
 ## Licence and authorship
 
 Copyright © 2026 Inappropriate Media Limited.
 Licensed under CC BY-NC-ND 4.0 — see [LICENSE.md](LICENSE.md).
 
-You may share this work with attribution. You may not use it commercially or
-distribute modified versions. For commercial licensing enquiries relating to
-Collapse Aware AI, contact via https://www.verrellslaw.org.
+You may share this work with attribution. You may not use it commercially or distribute modified versions except as permitted by the licence.
+
+For CAAI commercial evaluation or licensing enquiries, see the [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack).
