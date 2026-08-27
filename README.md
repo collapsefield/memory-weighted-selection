@@ -1,8 +1,7 @@
 # Memory-Weighted Selection
 
-**Middleware for continuity and retained-state behavioural selection**
+**Middleware for continuity and governed retained-state behavioural selection**
 
-Author: Marcos Ross  
 Part of the Collapse Aware AI (CAAI) engineering / research programme.
 
 **Read the paper:** [Memory-Weighted Selection (PDF)](Memory-Weighted-Selection.pdf)
@@ -11,46 +10,73 @@ Part of the Collapse Aware AI (CAAI) engineering / research programme.
 
 ## What this is
 
-This repository contains the working-paper source for *Memory-Weighted Selection*, a formal reference model for how persistent retained state can influence candidate selection in model-agnostic middleware.
+This repository contains the working-paper source for *Memory-Weighted Selection*, a formal public reference model for how persistent retained state can influence candidate selection in model-agnostic middleware.
 
 The core idea is that a host or generator supplies a set of permitted candidate outputs/actions, while a separate middleware layer evaluates those candidates against structured retained state and declared constraints before final selection.
 
 Selection itself becomes the place where behavioural continuity is made operational — without requiring retraining of the underlying model.
 
-The paper is a public formalisation. Production CAAI kernel logic, scoring functions, thresholds and runtime implementation remain proprietary.
+> **Retained history is eligible evidence, not automatic authority.**
+
+The paper is a public formalisation. Production CAAI kernel logic, scoring functions, private thresholds, tuning and runtime implementation remain proprietary.
 
 ---
 
-## Applied engineering status — August 2026
+## Applied engineering status — 27 August 2026
 
-The CAAI engineering programme has now progressed beyond the original Phase-1 foundation used when this paper was first published.
+The CAAI engineering programme has progressed substantially beyond the original reference model used when this paper was first published.
 
-The current private engineering line includes a live-integrated retained-state selection path and a bounded **local managed-evaluation package**.
+### Core Gold Build
 
-Public-safe demonstrated engineering now includes:
+The frozen commercial selector foundation now has a public-safe accepted lineage covering:
 
-- retained-state selection among permitted candidates;
-- persistence and deterministic replay;
-- explicit retained-state revision / revocation;
-- continuity memory and session boot;
-- recall routing / correction / revoked-context protection;
-- bounded ambiguity handling;
-- agency-impact routing;
-- durable private Decision Records;
-- customer-safe Decision Record projection;
-- live Phase-2 → Core selector integration;
-- failure/replay/restart and duplicate-protection hardening;
-- managed evaluation with customer-safe JSON / HTML / PDF evidence.
+- selection among host-supplied permitted candidates;
+- reference and governed retained-state conditions;
+- persistence / restart recall;
+- deterministic replay in tested conditions;
+- retained-state revision / revocation;
+- durable Decision Records and customer-safe evidence in the integrated evaluation line;
+- managed evaluation and evidence export.
 
-A controlled synthetic live comparison held the prompt, candidate set, candidate order, mapped thread and deterministic seed constant while comparing declared reference and governed retained-state conditions. The real selector chose different permitted candidates across the two conditions.
+### Evolution 2
 
-That is an **engineering implementation result**, not independent empirical proof of Verrell’s Law and not isolated causal proof of one configuration variable.
+The richer continuity engineering branch now includes accepted checkpoints for:
+
+- structured ContinuityFrame interpretation;
+- bounded hybrid retained-state retrieval;
+- Open Loops / Reopen Semantics;
+- Interaction Fit;
+- suppression and bounded proactive controls;
+- Confidence / Clarification;
+- Contradiction / Change Surfacing;
+- record-only Outcomes;
+- Agent Self-History;
+- bounded turn-local behavioural signals;
+- Session Observation foundation;
+- Engineering Tuning;
+- a restart-safe local Engineer Model with microphone speech-to-text input.
+
+Evolution 2 remains an **Engineering build rather than a finished Production release**.
 
 Current public-safe CAAI engineering status:
 
 - [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
-- [Current Engineering State — 7 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CURRENT_ENGINEERING_STATE_2026-08-07.md)
-- [Managed Evaluation Evidence — 7 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
+- [CAAI Public Overview 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CAAI_PUBLIC_OVERVIEW_2026.md)
+- [Current Engineering State — 27 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CURRENT_ENGINEERING_STATE_2026-08-27.md)
+
+---
+
+## Why the clean reference matters
+
+A central CAAI principle is that retained history must not win simply because it exists.
+
+A clean current-task/reference behaviour remains available to compete with history-conditioned alternatives.
+
+That makes the selection question more useful than ordinary memory retrieval alone:
+
+> **Did history actually earn the right to change the behaviour?**
+
+This is particularly relevant to long-running agents, simulations and game/NPC systems where stale or over-dominant memory can be as damaging as forgetting.
 
 ---
 
@@ -62,9 +88,9 @@ The public paper uses a deliberately simplified reference decomposition:
 - **Salience** — alignment with higher-importance retained items;
 - **Anchor** — compatibility with persistent commitments / stability references.
 
-The wider private CAAI architecture now contains richer retained-state lifecycle, recall-quality and evidence machinery than this paper’s minimal reference model.
+The wider private CAAI architecture now contains richer retained-state lifecycle, retrieval, confidence, change, suppression and evidence machinery than this paper’s minimal reference model.
 
-The paper should therefore be read as a **formal public abstraction**, not as a complete specification of the current production/private runtime.
+The paper should therefore be read as a **formal public abstraction**, not as a complete specification of the current private runtime.
 
 ---
 
@@ -116,15 +142,16 @@ It does **not** claim:
 - electromagnetic memory as an established CAAI mechanism;
 - new established physics;
 - universal emotional / psychological inference;
+- universal hallucination prevention;
 - disclosure of proprietary Crown internals.
 
 ---
 
 ## Evidence and validation boundary
 
-CAAI engineering tests establish that the middleware architecture can be built, executed, inspected, replayed and evaluated.
+CAAI engineering tests establish that the middleware architecture can be built, executed, inspected, replayed and evaluated in bounded conditions.
 
-That is not automatically independent empirical confirmation of Verrell’s Law merely because CAAI was deliberately built around retained-state weighting.
+That is not automatically independent empirical confirmation of Verrell’s Law merely because CAAI was deliberately built around retained-state selection.
 
 A runtime test that reuses the selector’s own internal retained-state score is an **engineering conformance / implementation validation** unless the analysis uses an independently frozen score or another non-circular empirical route.
 
@@ -147,8 +174,9 @@ The canonical research archive is:
 ## Status
 
 **Paper status:** working public engineering paper.  
-**CAAI implementation status:** live-integrated retained-state selection and local managed-evaluation packaging now exist in the private engineering line.  
-**Independent empirical validation:** remains separate future research work.
+**Core Gold status:** frozen commercial selector foundation.  
+**Evolution 2 status:** richer engineering programme, not yet a finished Production release.  
+**Independent empirical validation:** separate research track.
 
 The paper, CAAI engineering implementation and Verrell’s Law empirical programme should be evaluated under their separate evidence labels rather than collapsed into one claim.
 
