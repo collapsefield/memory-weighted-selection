@@ -1,146 +1,145 @@
 # Memory-Weighted Selection
 
-**Middleware for continuity and governed retained-state behavioural selection**
-
-Part of the Collapse Aware AI (CAAI) engineering / research programme.
+**Public engineering working paper for retained-state candidate selection**  
+**Part of the Collapse Aware AI™ (CAAI) engineering/research programme**
 
 **Read the paper:** [Memory-Weighted Selection (PDF)](Memory-Weighted-Selection.pdf)
 
 ---
 
-## What this is
+## What This Is
 
-This repository contains the working-paper source for *Memory-Weighted Selection*, a formal public reference model for how persistent retained state can influence candidate selection in model-agnostic middleware.
+This repository contains the working-paper source for *Memory-Weighted Selection*, a public reference formulation for how persistent retained state can influence candidate selection in model-agnostic middleware.
 
-The core idea is that a host or generator supplies a set of permitted candidate outputs/actions, while a separate middleware layer evaluates those candidates against structured retained state and declared constraints before final selection.
-
-Selection itself becomes the place where behavioural continuity is made operational — without requiring retraining of the underlying model.
+The host or generator supplies a set of permitted candidate outputs/actions. A separate middleware layer can evaluate those candidates against structured retained state and declared constraints before final selection.
 
 > **Retained history is eligible evidence, not automatic authority.**
 
-The paper is a public formalisation. Production CAAI kernel logic, scoring functions, private thresholds, tuning and runtime implementation remain proprietary.
+The paper is a public formalisation. Production CAAI kernel logic, private scoring functions, exact thresholds, tuning and runtime implementation remain proprietary.
 
 ---
 
-## Retained-State Selection — category relationship
+## Retained-State Selection — Category Relationship
 
-The broader category-level wording is now maintained explicitly as **Retained-State Selection**:
+The current technical process/category language is **Retained-State Selection**:
 
 > **Retained-State Selection is the controlled study or process by which information preserved from prior states is permitted to influence selection among presently available candidate outcomes.**
 
-The general concept of retained state is not claimed as original. The narrower emphasis is on **candidate-relative influence at selection time**, together with measurement, ablation and — in engineered systems — governance.
+The general concept of retained state is not claimed as original. The narrower emphasis is candidate-relative influence at selection time together with measurement, ablation and — in engineered systems — governance.
 
 Public references:
 
 - [Retained-State Selection Category and Terminology Note v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_CATEGORY_NOTE_v1.0.md)
 - [Retained-State Selection Benchmark v0.1](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_BENCHMARK_v0.1.md)
+- [Current Verrell’s Law / CAAI Boundary — 30 August 2026](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/00_CURRENT_POSITION_2026-08-30.md)
 
 ---
 
-## Applied engineering status — 27 August 2026
+## Relationship to Collapse Aware AI™
 
-The CAAI engineering programme has progressed substantially beyond the original reference model used when this paper was first published.
+Canonical commercial position:
 
-### Core Gold Build
+> **Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
 
-The frozen commercial selector foundation now has a public-safe accepted lineage covering:
+CAAI uses **Governed Retained-State Selection** as its engineering approach: retained history may influence selection but does not receive automatic authority.
 
-- selection among host-supplied permitted candidates;
+Current commercial/evaluation source:
+
+- [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
+- [CAAI Commercial / Evaluation Index](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/00_RETAINED_STATE_SELECTION_COMMERCIAL_INDEX.md)
+
+---
+
+## Applied Engineering Status
+
+### Core Gold
+
+Core Gold is the frozen current commercial selector foundation.
+
+Public-safe accepted capabilities in the integrated lineage include:
+
+- selection among host-supplied permitted candidate actions;
 - reference and governed retained-state conditions;
 - persistence / restart recall;
 - deterministic replay in tested conditions;
 - retained-state revision / revocation;
-- durable Decision Records and customer-safe evidence in the integrated evaluation line;
+- durable Decision Records and customer-safe evidence;
 - managed evaluation and evidence export.
 
 ### Evolution 2
 
-The richer continuity engineering branch now includes accepted checkpoints for:
+Evolution 2 is the richer continuity Engineering branch. Public-safe accepted checkpoints include structured ContinuityFrame interpretation, bounded hybrid retained-state retrieval, Open Loops/Reopen Semantics, Interaction Fit, suppression/proactive controls, Confidence/Clarification, Contradiction/Change Surfacing, record-only Outcomes, Agent Self-History, bounded behavioural signals, Session Observation foundation and Engineering Tuning.
 
-- structured ContinuityFrame interpretation;
-- bounded hybrid retained-state retrieval;
-- Open Loops / Reopen Semantics;
-- Interaction Fit;
-- suppression and bounded proactive controls;
-- Confidence / Clarification;
-- Contradiction / Change Surfacing;
-- record-only Outcomes;
-- Agent Self-History;
-- bounded turn-local behavioural signals;
-- Session Observation foundation;
-- Engineering Tuning;
-- a restart-safe local Engineer Model with microphone speech-to-text input.
-
-Evolution 2 remains an **Engineering build rather than a finished Production release**.
-
-Current public-safe CAAI engineering status:
-
-- [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
-- [CAAI Retained-State Selection Commercial / Evaluation Index](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/00_RETAINED_STATE_SELECTION_COMMERCIAL_INDEX.md)
-- [CAAI Public Overview 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CAAI_PUBLIC_OVERVIEW_2026.md)
-- [Current Engineering State — 27 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CURRENT_ENGINEERING_STATE_2026-08-27.md)
+Evolution 2 remains an **Engineering build rather than a finished Production commercial offer**.
 
 ---
 
-## Why the clean reference matters
+## Why the Clean Reference Matters
 
-A central CAAI principle is that retained history must not win simply because it exists.
+Retained history must not win simply because it exists.
 
 A clean current-task/reference behaviour remains available to compete with history-conditioned alternatives.
 
-That makes the selection question more useful than ordinary memory retrieval alone:
+The important question is:
 
-> **Did history actually earn the right to change the behaviour?**
+> **Did history actually earn the right to change the selection?**
 
-This is particularly relevant to long-running agents, simulations and game/NPC systems where stale or over-dominant memory can be as damaging as forgetting.
+That distinction matters in long-running agents, games/NPCs, simulations, regulated workflows and other systems where stale or over-dominant history can be as damaging as forgetting.
 
 ---
 
-## Reference memory decomposition
+## Reference Memory Decomposition
 
 The public paper uses a deliberately simplified reference decomposition:
 
 - **Recency** — alignment with recent retained state;
 - **Salience** — alignment with higher-importance retained items;
-- **Anchor** — compatibility with persistent commitments / stability references.
+- **Anchor** — compatibility with persistent commitments/stability references.
 
-The wider private CAAI architecture now contains richer retained-state lifecycle, retrieval, confidence, change, suppression and evidence machinery than this paper’s minimal reference model.
+The wider private CAAI architecture contains richer retained-state lifecycle, retrieval, confidence, change, suppression and evidence machinery than this paper’s minimal model.
 
-The paper should therefore be read as a **formal public abstraction**, not as a complete specification of the current private runtime.
+The paper should therefore be read as a **formal public abstraction**, not a complete specification of the private runtime.
 
 ---
 
-## Independent convergence around the problem
+## Buyer-Facing Evaluation Pattern
 
-Independent research now addresses adjacent pieces of the same engineering territory:
+A practical bounded demonstration should make retained-state influence measurable:
 
-- history-aware candidate action verification;
-- execution-path-aware runtime governance;
-- trusted final authority outside the model;
-- bounded action vocabularies and attestation;
-- selective long-horizon memory and retention scoring;
-- governed agent-memory architectures.
+```text
+same present condition
++ different retained history
+→ measurable selection difference
+→ disable retained-state influence
+→ comparison/reference result
+→ replay
+→ inspectable evidence
+```
 
-The current public comparison is:
+This is an engineering/evaluation pattern. It is not independent empirical validation of Verrell’s Law.
+
+---
+
+## Independent Convergence Around the Problem
+
+Independent research addresses adjacent pieces of the same engineering territory, including history-aware candidate verification, execution-path-aware runtime governance, trusted final authority outside the model, bounded action vocabularies, selective long-horizon memory and governed agent-memory architectures.
+
+Current comparison:
 
 - [Independent Convergence Map — Retained-State Selection, Agent Memory and Runtime Governance](research_notes/INDEPENDENT_CONVERGENCE_MAP_2026-08-30.md)
 
-The comparison deliberately includes close neighbours such as HAVE, Policies on Paths, Aegis, Five Primitives for Runtime Governance and Weighted Memory Tree.
-
-These works strengthen the case that the surrounding problem is real and active. They do **not** prove CAAI is globally unique and do not independently validate Verrell’s Law.
-
-The defensible CAAI position is the specific governed combination and demonstrated behaviour rather than ownership of the underlying ingredients.
+Those works strengthen the case that the surrounding problem is active. They do **not** prove CAAI is globally unique and do not independently validate Verrell’s Law.
 
 ---
 
-## Repository contents
+## Repository Contents
 
 ```text
 Memory-Weighted-Selection.pdf
-                        — compiled paper for convenient reading
+                        — compiled paper
 
 paper_source/
-  paper.tex             — full LaTeX source of the working paper
+  paper.tex             — LaTeX source
   references.bib        — bibliography
   paper.bbl             — compiled bibliography
   fig_architecture.pdf  — reference architecture figure
@@ -148,17 +147,16 @@ paper_source/
 
 research_notes/
   QUANTUM_MEMORY_AND_CARBON_ADJACENT_EVIDENCE.md
-                        — bounded adjacent-evidence research note,
-                          deliberately separate from the engineering paper
+                        — bounded adjacent-evidence research note
 
   INDEPENDENT_CONVERGENCE_MAP_2026-08-30.md
-                        — comparison with adjacent 2025–2026 research on
+                        — comparison with adjacent research on
                           history-aware selection, memory and runtime governance
 ```
 
 ---
 
-## Building the paper
+## Building the Paper
 
 From the repository root:
 
@@ -173,42 +171,31 @@ The included `paper.bbl` means no separate BibTeX run is required.
 
 ---
 
-## Scope and claims
+## Scope and Claims
 
 The paper makes a narrow engineering-level claim about middleware candidate selection.
 
-It does **not** claim:
-
-- consciousness or sentience;
-- AGI;
-- quantum implementation;
-- electromagnetic memory as an established CAAI mechanism;
-- new established physics;
-- universal emotional / psychological inference;
-- universal hallucination prevention;
-- disclosure of proprietary Crown internals.
+It does **not** claim consciousness/sentience, AGI, quantum implementation, electromagnetic memory as an established CAAI mechanism, new established physics, universal emotional/psychological inference, universal hallucination prevention, or disclosure of proprietary Crown internals.
 
 ---
 
-## Evidence and validation boundary
+## Evidence and Validation Boundary
 
-CAAI engineering tests establish that the middleware architecture can be built, executed, inspected, replayed and evaluated in bounded conditions.
+CAAI engineering tests establish bounded software behaviour under declared test conditions.
 
 That is not automatically independent empirical confirmation of Verrell’s Law merely because CAAI was deliberately built around retained-state selection.
 
-A runtime test that reuses the selector’s own internal retained-state score is an **engineering conformance / implementation validation** unless the analysis uses an independently frozen score or another non-circular empirical route.
-
-The research and engineering evidence labels must remain separate.
+A runtime test that reuses a selector’s own internal retained-state score is an **engineering conformance / implementation validation** unless the analysis uses an independently frozen score or another non-circular empirical route.
 
 ---
 
 ## Relationship to Verrell’s Law
 
-Verrell’s Law is a separate proposed falsifiable retained-state selection framework.
+Verrell’s Law is a separate proposed falsifiable retained-state selection research framework.
 
 CAAI can be assessed entirely as software without accepting speculative physical interpretation.
 
-The canonical research archive is:
+Canonical research archive:
 
 - [collapsefield-verrells-law](https://github.com/collapsefield/collapsefield-verrells-law)
 
@@ -217,11 +204,9 @@ The canonical research archive is:
 ## Status
 
 **Paper status:** working public engineering paper.  
-**Core Gold status:** frozen commercial selector foundation.  
-**Evolution 2 status:** richer engineering programme, not yet a finished Production release.  
+**Core Gold status:** frozen current commercial selector foundation.  
+**Evolution 2 status:** richer Engineering branch, not yet a finished Production commercial offer.  
 **Independent empirical validation:** separate research track.
-
-The paper, CAAI engineering implementation and Verrell’s Law empirical programme should be evaluated under their separate evidence labels rather than collapsed into one claim.
 
 ---
 
@@ -235,11 +220,11 @@ Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff)
 
 ---
 
-## Licence and authorship
+## Licence and Authorship
 
-Copyright © 2026 Inappropriate Media Limited.
+Copyright © 2026 Inappropriate Media Limited.  
 Licensed under CC BY-NC-ND 4.0 — see [LICENSE.md](LICENSE.md).
 
 You may share this work with attribution. You may not use it commercially or distribute modified versions except as permitted by the licence.
 
-For CAAI commercial evaluation or licensing enquiries, see the [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack).
+For a CAAI paid audit, evaluation, pilot, integration or licensing discussion, use the [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack).
