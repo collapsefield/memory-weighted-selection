@@ -120,6 +120,21 @@ This is an engineering/evaluation pattern. It is not independent empirical valid
 
 ---
 
+## Engineering Evidence / Priority Record
+
+The current public record distinguishes two things deliberately:
+
+- the **demonstrated CAAI engineering result** that retained prior state can alter final selection under bounded tested conditions while reference, ablation, replay and evidence remain available; and
+- the **novelty boundary**, which recognises substantial prior art in history-dependent control and action selection rather than claiming that history-conditioned decisions were invented here.
+
+See:
+
+- [CAAI Engineering Evidence and Priority Position — 30 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CAAI_ENGINEERING_EVIDENCE_AND_PRIORITY_POSITION_2026-08-30.md)
+
+The bounded priority position concerns the particular CAAI combination of host-supplied permitted candidates, retained-state influence without automatic authority, an explicit retained-state-disabled reference condition, governed final selection, lifecycle/revision controls, replay and Decision Records/evidence.
+
+---
+
 ## Independent Convergence Around the Problem
 
 Independent research addresses adjacent pieces of the same engineering territory, including history-aware candidate verification, execution-path-aware runtime governance, trusted final authority outside the model, bounded action vocabularies, selective long-horizon memory and governed agent-memory architectures.
