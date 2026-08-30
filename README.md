@@ -22,6 +22,21 @@ The paper is a public formalisation. Production CAAI kernel logic, scoring funct
 
 ---
 
+## Retained-State Selection — category relationship
+
+The broader category-level wording is now maintained explicitly as **Retained-State Selection**:
+
+> **Retained-State Selection is the controlled study or process by which information preserved from prior states is permitted to influence selection among presently available candidate outcomes.**
+
+The general concept of retained state is not claimed as original. The narrower emphasis is on **candidate-relative influence at selection time**, together with measurement, ablation and — in engineered systems — governance.
+
+Public references:
+
+- [Retained-State Selection Category and Terminology Note v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_CATEGORY_NOTE_v1.0.md)
+- [Retained-State Selection Benchmark v0.1](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_BENCHMARK_v0.1.md)
+
+---
+
 ## Applied engineering status — 27 August 2026
 
 The CAAI engineering programme has progressed substantially beyond the original reference model used when this paper was first published.
@@ -61,6 +76,7 @@ Evolution 2 remains an **Engineering build rather than a finished Production rel
 Current public-safe CAAI engineering status:
 
 - [CAAI Public Proof Pack](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
+- [CAAI Retained-State Selection Commercial / Evaluation Index](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/00_RETAINED_STATE_SELECTION_COMMERCIAL_INDEX.md)
 - [CAAI Public Overview 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CAAI_PUBLIC_OVERVIEW_2026.md)
 - [Current Engineering State — 27 August 2026](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack/blob/main/CURRENT_ENGINEERING_STATE_2026-08-27.md)
 
@@ -94,6 +110,29 @@ The paper should therefore be read as a **formal public abstraction**, not as a 
 
 ---
 
+## Independent convergence around the problem
+
+Independent research now addresses adjacent pieces of the same engineering territory:
+
+- history-aware candidate action verification;
+- execution-path-aware runtime governance;
+- trusted final authority outside the model;
+- bounded action vocabularies and attestation;
+- selective long-horizon memory and retention scoring;
+- governed agent-memory architectures.
+
+The current public comparison is:
+
+- [Independent Convergence Map — Retained-State Selection, Agent Memory and Runtime Governance](research_notes/INDEPENDENT_CONVERGENCE_MAP_2026-08-30.md)
+
+The comparison deliberately includes close neighbours such as HAVE, Policies on Paths, Aegis, Five Primitives for Runtime Governance and Weighted Memory Tree.
+
+These works strengthen the case that the surrounding problem is real and active. They do **not** prove CAAI is globally unique and do not independently validate Verrell’s Law.
+
+The defensible CAAI position is the specific governed combination and demonstrated behaviour rather than ownership of the underlying ingredients.
+
+---
+
 ## Repository contents
 
 ```text
@@ -111,6 +150,10 @@ research_notes/
   QUANTUM_MEMORY_AND_CARBON_ADJACENT_EVIDENCE.md
                         — bounded adjacent-evidence research note,
                           deliberately separate from the engineering paper
+
+  INDEPENDENT_CONVERGENCE_MAP_2026-08-30.md
+                        — comparison with adjacent 2025–2026 research on
+                          history-aware selection, memory and runtime governance
 ```
 
 ---
