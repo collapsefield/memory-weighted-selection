@@ -1,7 +1,7 @@
 # Memory-Weighted Selection
 
 **Public engineering working paper for retained-state candidate selection**  
-**Part of the Collapse Aware AI™ (CAAI) engineering/research programme**
+**Part of the Collapse Aware AI (CAAI) engineering/research programme**
 
 **Read the paper:** [Memory-Weighted Selection (PDF)](Memory-Weighted-Selection.pdf)
 
@@ -39,7 +39,7 @@ Public references:
 
 Canonical commercial position:
 
-> **Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
+> **Collapse Aware AI is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
 
 CAAI uses **Governed Retained-State Selection** as its engineering approach: retained history may influence selection but does not receive automatic authority.
 
