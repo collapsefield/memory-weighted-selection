@@ -1,7 +1,7 @@
 # Memory-Weighted Selection
 
 **A public engineering working paper on governed, retained-state candidate selection**  
-**Author: Marcos Verrell — Ross, M. V. M. (2026) - Independent Researcher**  
+**Author: Marcos Verrell — Independent Researcher**  
 **Edition: October 2026, second public working-paper edition**
 
 [Read the full paper (PDF)](Memory-Weighted-Selection.pdf) · [LaTeX source](paper_source/paper.tex) · [Bibliography](paper_source/references.bib)
