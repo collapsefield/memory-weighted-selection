@@ -1,32 +1,25 @@
 cff-version: 1.2.0
-message: "If you use or discuss this work, please cite the paper using this metadata."
+message: "Please cite this working paper using the metadata below."
 title: "Memory-Weighted Selection: Middleware for Continuity and Governed Behaviour in LLM Systems"
 type: software
+version: "2.0"
+date-released: 2026-10-20
 authors:
-  - family-names: "Verrell"
-    given-names: "Marcos"
-    affiliation: "Independent Researcher"
-date-released: 2026-07-13
+  - family-names: Verrell
+    given-names: Marcos
+    affiliation: Independent Researcher
 license: CC-BY-NC-ND-4.0
-repository-code: "https://github.com/collapsefield/memory-weighted-selection"
-url: "https://www.verrellslaw.org"
+repository-code: https://github.com/collapsefield/memory-weighted-selection
 abstract: >-
-  A working paper and reference formulation for middleware-level candidate
-  selection using persistent memory state and explicit governor constraints in
-  LLM-based systems.
-keywords:
-  - large language models
-  - middleware
-  - persistent memory
-  - candidate selection
-  - reranking
-  - AI governance
+  Public reference model for retained-state selection over host-supplied
+  candidates with hard eligibility constraints, soft penalties and a
+  formally specified influence-disabled comparison. Worked examples are
+  illustrative, not independent runtime measurements.
 preferred-citation:
-  type: article
+  type: report
   authors:
-    - family-names: "Verrell"
-      given-names: "Marcos"
-      affiliation: "Independent Researcher"
+    - family-names: Verrell
+      given-names: Marcos
   title: "Memory-Weighted Selection: Middleware for Continuity and Governed Behaviour in LLM Systems"
   year: 2026
-
+  notes: "Working paper, second edition (20 October 2026); first edition 13 July 2026."

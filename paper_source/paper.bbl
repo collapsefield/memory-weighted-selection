@@ -1,9 +1,17 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alshiekh et~al.(2018)Alshiekh, Bloem, Ehlers, Koenighofer, Niekum, and
+  Topcu]{alshiekh2018shielding}
+Mohammed Alshiekh, Roderick Bloem, Ruediger Ehlers, Bettina Koenighofer, Scott
+  Niekum, and Ufuk Topcu.
+\newblock Safe reinforcement learning via shielding.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, 2018.
 
 \bibitem[Anderson(1996)]{anderson1996act}
 John~R. Anderson.
@@ -68,7 +76,7 @@ S{\'e}bastien Bubeck and Nicolo Cesa-Bianchi.
 \bibitem[Burges(2010)]{burges2010ranknet}
 Christopher J.~C. Burges.
 \newblock From ranknet to lambdarank to lambdamart: An overview.
-\newblock \emph{Microsoft Research Technical Report MSR-TR-2010-82}, 2010.
+\newblock Technical Report MSR-TR-2010-82, Microsoft Research, 2010.
 
 \bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
   Plappert, Tworek, Hilton, Nakano, et~al.]{cobbe2021training}
@@ -182,8 +190,16 @@ Charles Packer, Vivian Fang, Shishir~G. Patil, Kevin Lin, Sarah Wooders, and
 Joon~Sung Park, Joseph~C. O'Brien, Carrie~J. Cai, Meredith~Ringel Morris, Percy
   Liang, and Michael~S. Bernstein.
 \newblock Generative agents: Interactive simulacra of human behavior.
-\newblock \emph{Proceedings of the 36th Annual ACM Symposium on User Interface
-  Software and Technology}, 2023.
+\newblock In \emph{Proceedings of the 36th Annual ACM Symposium on User
+  Interface Software and Technology}, 2023.
+
+\bibitem[Pei et~al.(2019)Pei, Zhang, Zhang, Sun, Lin, Sun, Wu, Jiang, Ge, Ou,
+  and Pei]{pei2019personalized}
+Changhua Pei, Yi~Zhang, Yongfeng Zhang, Fei Sun, Xiao Lin, Hanxiao Sun, Jian
+  Wu, Peng Jiang, Junfeng Ge, Wenwu Ou, and Dan Pei.
+\newblock Personalized re-ranking for recommendation.
+\newblock In \emph{Proceedings of the 13th ACM Conference on Recommender
+  Systems}, pages 3--11, 2019.
 
 \bibitem[Shinn et~al.(2023)Shinn, Cassano, Gopinath, Narasimhan, and
   Yao]{shinn2023reflexion}
@@ -221,7 +237,7 @@ Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu,
 \bibitem[Weston et~al.(2015)Weston, Chopra, and Bordes]{weston2015memory}
 Jason Weston, Sumit Chopra, and Antoine Bordes.
 \newblock Memory networks.
-\newblock \emph{International Conference on Learning Representations}, 2015.
+\newblock In \emph{International Conference on Learning Representations}, 2015.
 
 \bibitem[Willard and Louf(2023)]{willard2023efficient}
 Brandon~T. Willard and R{\'e}mi Louf.
@@ -234,5 +250,13 @@ Kevin Yang and Dan Klein.
 \newblock In \emph{Proceedings of the 2021 Conference of the North American
   Chapter of the Association for Computational Linguistics}, pages 3511--3535,
   2021.
+
+\bibitem[Zhang et~al.(2018)Zhang, Dinan, Urbanek, Szlam, Kiela, and
+  Weston]{zhang2018personalizing}
+Saizheng Zhang, Emily Dinan, Jack Urbanek, Arthur Szlam, Douwe Kiela, and Jason
+  Weston.
+\newblock Personalizing dialogue agents: {I} have a dog, do you have pets too?
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics}, pages 2204--2213, 2018.
 
 \end{thebibliography}
