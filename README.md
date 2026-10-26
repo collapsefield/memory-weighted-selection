@@ -72,7 +72,7 @@ The compiled bibliography (`paper.bbl`) is supplied for reproducibility.
 
 ## Cite
 
-Verrell, Marcos. *Memory-Weighted Selection: Middleware for Continuity and Governed Behaviour in LLM Systems*. Working paper, 2026. See [CITATION.cff](CITATION.cff) for machine-readable metadata. Any later Zenodo DOI should be version-specific and added only after an actual deposit.
+Marcos.Verrell (M.R.) *Memory-Weighted Selection: Middleware for Continuity and Governed Behaviour in LLM Systems*. Working paper, 2026. See [CITATION.cff](CITATION.cff) for machine-readable metadata. Any later Zenodo DOI should be version-specific and added only after an actual deposit.
 
 ---
 
