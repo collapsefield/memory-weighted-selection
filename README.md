@@ -82,6 +82,12 @@ The pre-existing [LICENSE.md](LICENSE.md) remains in effect. The author credit i
 
 ---
 
+## Contact
+
+**Middleware technical enquiries:** [hello@verrellslaw.org](mailto:hello@verrellslaw.org).
+
+---
+
 ## Edition history
 
 - First working-paper edition: 13 July 2026.
