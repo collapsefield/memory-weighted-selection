@@ -1,10 +1,16 @@
 # Memory-Weighted Selection
 
-**A public engineering working paper on governed, retained-state candidate selection**  
-**Author: Marcos Verrell Moss Ross (M.R.) — Independent Researcher**  
-**Edition: October 2026, second public working-paper edition**
+### A Public Reference Model for Governed Candidate Selection
 
-[Read the full paper (PDF)](Memory-Weighted-Selection.pdf) · [LaTeX source](paper_source/paper.tex) · [Bibliography](paper_source/references.bib)
+**An engineering working paper — not a disclosure of proprietary Core Gold implementation.**
+
+[**Read the paper**](Memory-Weighted-Selection.pdf) · [**Inspect the LaTeX source**](paper_source/paper.tex) · [**CAAI evaluation context**](https://github.com/collapsefield/collapse-aware-ai-public-proof-pack)
+
+> Host-provided options, declared retained history, eligibility controls and an inspectable reference condition: a research-facing design for bounded behavioural selection.
+
+**Scope:** The manuscript supplies formal and illustrative engineering material. It does not independently verify a production CAAI runtime or establish Verrell’s Law as a physical law.
+
+**Scientific context:** [Verrell’s Law — A Retained-State Selection Framework](https://github.com/collapsefield/collapsefield-verrells-law) · **Engineering enquiries:** [collapseawareai@gmail.com](mailto:collapseawareai@gmail.com)
 
 ---
 
